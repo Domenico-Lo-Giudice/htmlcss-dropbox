@@ -1,13 +1,25 @@
 .header-links > li {
     list-style-type: none;
     display: inline-block;
+    font-size: 20px;
+    padding: 2rem;
 
+}
+
+
+.inizia {
+        font-size: 20px;
+        padding: 10px;
+        background-color: rgb(48, 48, 255);
+        color: white;
+        border: none;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     height: 5rem;
+    align-items: center;
 }
 
 .header-container {
@@ -26,7 +38,7 @@ main>section>.container {
 /* Inizio Prima section */
 
 .first-section {
-    background-color: lightblue;
+    background-color: #B4D0E7;
     min-height: 50rem;
     
     
@@ -96,15 +108,28 @@ main>section>.container {
 
 .second-section {
     padding-top: 10rem;
-    background-color: brown;
+    background-color: white;
     height: 190rem;
 }
 
 .titolo-second-section {
     text-align: center;
     font-size: 50px;
+    margin-bottom: 2rem;
+
+}
 
 
+.fake-check {
+    text-align: center;
+    padding-right: 20rem;
+    padding-bottom: 4rem;
+    vertical-align: center;
+    font-size: 1.5rem ;
+}
+
+.circle {
+    font-size: 2rem;
 }
 
 .second-section-col {
