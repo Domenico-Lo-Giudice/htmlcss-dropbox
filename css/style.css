@@ -65,7 +65,7 @@ main>section>.container {
 .second-section {
     padding-top: 10rem;
     background-color: brown;
-    min-height: 200rem;
+    height: 190rem;
 }
 
 .titolo-second-section {
@@ -86,14 +86,40 @@ main>section>.container {
 
 
 
-
 .second-section-row {
         margin-top: 20px;
         min-height: 400px;
         width: 100%;
+        margin-bottom: 20px;
         
     
         /* debug */
         background-color: #ee82ee;
         border: 2px dashed black;
 }
+
+.titolo-third-section {
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.col {
+    width: 30%;
+    position: relative;
+}
+
+
+ .row {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     column-gap: 30px;
+     row-gap: 5rem;
+ }
+
+ .third-section{
+    background-color: lightblue;
+    height: 75rem;
+ }
+
