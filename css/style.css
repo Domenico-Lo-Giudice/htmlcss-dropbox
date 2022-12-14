@@ -122,7 +122,7 @@ main>section>.container {
 
 .fake-check {
     text-align: center;
-    padding-right: 20rem;
+    padding-right: 15rem;
     padding-bottom: 4rem;
     vertical-align: center;
     font-size: 1.5rem ;
@@ -130,6 +130,10 @@ main>section>.container {
 
 .circle {
     font-size: 2rem;
+}
+
+.fatturazione {
+    padding-right: 5rem;
 }
 
 .second-section-col {
@@ -154,6 +158,24 @@ main>section>.container {
         background-color: #ee82ee;
         border: 2px dashed black;
 }
+
+
+.partner {
+    width: 35rem;
+    
+}
+
+.side-col.pt {
+    width: 150rem;
+    
+}
+
+
+
+.tp {
+    margin-top: 10rem;
+}
+
 
 .titolo-third-section {
     text-align: center;
