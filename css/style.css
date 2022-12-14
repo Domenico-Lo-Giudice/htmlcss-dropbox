@@ -7,7 +7,6 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: yellow;
     height: 5rem;
 }
 
@@ -16,3 +15,42 @@ display: inline-block;
 
 }
 
+main>section>.container {
+	display: flex;
+
+	/* debug */
+	min-height: 500px;
+}
+
+
+/* Inizio Prima section */
+
+.bg-lightblue {
+    background-color: lightblue;
+    height: 45rem;
+}
+
+
+
+.main-col {
+    flex-grow: 1;
+
+    /* debug */
+    background-color: cornflowerblue;
+    border: 2px dashed black;
+}
+
+.side-col {
+    flex-grow: 2;
+
+    /* debug */
+    background-color: pink;
+    border: 2px dashed black;
+}
+
+.Titolo {
+    text-align: center;
+    font-size: 80px;
+}
+
+/* Fine Prima section */
