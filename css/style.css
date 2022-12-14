@@ -27,31 +27,62 @@ main>section>.container {
 
 .first-section {
     background-color: lightblue;
-    min-height: 45rem;
+    min-height: 50rem;
+    po
     
 }
 
-
-
 .main-col {
     flex-grow: 1;
+    margin-top: 5rem;
 
     /* debug */
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue;
     border: 2px dashed black;
+    font-size: 20px; */
 }
 
 .side-col {
     flex-grow: 2;
+    margin-top: 5rem;
+    width: 500rem;
+    
 
     /* debug */
-    background-color: pink;
-    border: 2px dashed black;
+    /* background-color: pink;
+    border: 2px dashed black; */
+}
+
+
+.upper-text-first-section {
+    padding-bottom: 2rem;
+    font-size: 20px;
+}
+
+
+.prova-gratuita {
+    margin-bottom: 3rem;
+    padding: 15px;
+    background-color: rgb(48, 48, 255);
+    color: white;
+    border: none;
+
+}
+
+
+.annulla-sempre {
+    margin-bottom: 5rem;
+}
+
+.arrow {
+    font-size: 60px;
 }
 
 .titolo {
+    padding-top: 5rem;
     text-align: center;
     font-size: 80px;
+    
 }
 
 /* Fine Prima section */
@@ -123,3 +154,40 @@ main>section>.container {
     height: 75rem;
  }
 
+.fourth-section {
+    background-color: grey;
+    height: 40vh;
+    width: 100vw;
+}
+
+.fourth-section>.contenuto {
+    display: flex;
+
+    /* debug */
+    height: 100%;
+}
+
+.fourth-section-col {
+    flex-grow: 1;
+    
+    /* debug */
+    background-color: cornflowerblue;
+    border: 2px dashed black;
+    display: flex;
+}
+
+
+.fifth-section {
+    background-color: lightblue;
+    height: 35rem;
+}
+
+.sixth-section {
+    height: 45rem;
+}
+
+
+footer {
+    background-color: black;
+    height: 40rem;
+}
