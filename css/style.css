@@ -144,7 +144,7 @@ li {
 
 .second-section-col {
     flex-grow: 1;
-    height: 50rem;
+    height: 58rem;
     width: 27%;
 
     /* debug */
@@ -158,6 +158,11 @@ li {
     margin-bottom: 40px;
     margin-left: 40px;
 
+}
+
+li > span {
+    color: rgb(49, 49, 212);
+    font-weight: bold;
 }
 
 .col-title {
@@ -217,6 +222,11 @@ li {
 
 .tp {
     margin-top: 10rem;
+}
+
+
+.second-section-col > ul > li {
+    margin-bottom: 20px;
 }
 
 /* Fine Seconda section */
