@@ -373,10 +373,37 @@ li {
 /*  Fine Quinta section  */
 
 
+
+/* Inizio Sesta sezione */
 .sixth-section {
-    height: 45rem;
+    height: 52rem;
 }
 
+
+.sixth-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 40px;
+    padding-top: 10rem;
+}
+
+.sixth-container> h2 {
+    padding-bottom: 80px;
+}
+
+.sixth-container > h6 {
+    padding-bottom: 50px;
+    font-size: 20px
+}
+
+.sixth-container> hr {
+    margin-bottom: 50px;
+}
+
+
+.fa-solid {
+    margin-left: 25rem;
+}
 
 footer {
     background-color: black;
