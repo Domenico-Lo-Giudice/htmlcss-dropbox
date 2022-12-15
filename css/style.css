@@ -202,47 +202,76 @@ main>section>.container {
     height: 75rem;
  }
 
-/* .fourth-section {
-    background-color: grey;
-    height: 40vh;
-    width: 100vw;
-} */
 
 
 /* Quarta sezione */
 
-
-
-
     .square-logo {
-        width: 15vw;
-        height: 15vw;
+        width: 50%;
+        height: calc(100vw / 3 / 2);
 
-        background-color: blue;
-        border: 2px dashed black;
+        /* background-color: blue;
+        border: 2px dashed black; */
+
+        line-height: 15vw;
+        text-align: center;
     }
 
 
+    .square-logo img {
+        object-fit: cover;
+        vertical-align: middle;
+        filter: invert();
+        width: 50%;
+    }
    
-
-
-
-/* .fourth-section>.contenuto {
-    display: flex;
-
     
-    height: 100%;
-}
+    .w50.d-wrap {
+        text-align: center;
+        background-color: lightgray;
+    }
 
-.fourth-section-col {
-    flex-grow: 1;
-    
-    
-    background-color: cornflowerblue;
-    border: 2px dashed black;
-    display: flex;
-}
- */
+    .central-img {
+        padding-left: 135px;
+       
+    }
+
+    /* colori quadrati */
+    .first {
+        background-color: #A2D39B;
+    }
+
+    .second {
+        background-color: #61082B;
+    }
+
+    .third {
+        background-color: #0093CE;
+    }
+
+
+    .fourth {
+        background-color: #FF1C1C;
+    }
+
+    .fifth {
+        background-color: #D5001F;
+    }
+
+    .sixth {
+        background-color: #B4D0E7;
+    }
+
+    .seventh {
+        background-color: #0D2481;
+    }
+
+    .ninth {
+        background-color: #FFD830;
+    }
+
+    /* colori quadrati */
+
 
 .fifth-section {
     background-color: lightblue;
