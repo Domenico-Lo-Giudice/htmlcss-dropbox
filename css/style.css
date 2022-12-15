@@ -85,19 +85,24 @@ main>section>.container {
 }
 
 
-.annulla-sempre {
-    margin-bottom: 5rem;
-}
+/* .annulla-sempre {
+    
+} */
 
 .arrow {
     font-size: 60px;
 }
 
 .titolo {
-    padding-top: 5rem;
+    padding-top: 2rem;
     text-align: center;
     font-size: 80px;
     
+}
+
+.first-section > .container {
+    position: relative;
+    bottom: -80px;
 }
 
 /* Fine Prima section */
@@ -429,10 +434,6 @@ footer {
 .footer-side-col {
     display: flex;
     width: calc(100% / 3 * 2);
-
-    /* debug */
-    /* background-color: #20b2aa;
-	border: 2px dashed black; */
     font-size: 20px;
 
 }
