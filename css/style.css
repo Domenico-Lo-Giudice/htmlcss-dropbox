@@ -401,11 +401,59 @@ li {
 }
 
 
-.fa-solid {
+.fa-angle-down {
     margin-left: 25rem;
 }
 
+/*  Fine Sesta section  */
+
+
+/* Footer */
 footer {
     background-color: black;
     height: 40rem;
+    color: white;
 }
+
+
+.footer-side-col {
+    display: flex;
+    width: calc(100% / 3 * 2);
+
+    /* debug */
+    /* background-color: #20b2aa;
+	border: 2px dashed black; */
+    font-size: 20px;
+
+}
+
+.footer-col  {
+    margin-right: 80px;
+}
+
+.footer-col {
+    width: 25%;
+    text-align: left;
+    
+}
+
+b {
+    font-size: 50px
+}
+
+.end-footer {
+    margin-top: 10rem;
+    color: grey;
+    box-shadow: 0px 2px 0px #FF1C1C;
+    
+}
+
+.end-footer .fa-solid {
+    margin-left: 0;
+}
+
+.fa-sort-up {
+    vertical-align: middle;
+}
+
+
