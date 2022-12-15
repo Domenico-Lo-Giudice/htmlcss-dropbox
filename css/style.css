@@ -31,7 +31,7 @@ main>section>.container {
 	display: flex;
 
 	/* debug */
-	min-height: 500px;
+	min-height: 300px;
 }
 
 
@@ -109,7 +109,7 @@ main>section>.container {
 .second-section {
     padding-top: 10rem;
     background-color: white;
-    height: 190rem;
+    height: 150rem;
 }
 
 .titolo-second-section {
@@ -163,23 +163,40 @@ li {
     margin: 0;
 }
 
-.title-hr {
-    margin: 0;
-    color: grey;
-}
+
 
 
 
 .second-section-row {
         margin-top: 20px;
-        min-height: 400px;
+        height: 250px;
         width: 100%;
         margin-bottom: 20px;
-        
+        font-size: 20px;
     
         /* debug */
-        background-color: #ee82ee;
-        border: 2px dashed black;
+        background-color: white;
+        border: 1px solid grey;
+}
+
+
+.second-section-row > * {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.title-hr {
+    margin: 0;
+    color: grey;
+}
+
+.enterprise {
+    font-size: 30px
+}
+
+
+.single {
+    margin-left: 60rem;
 }
 
 
