@@ -111,7 +111,7 @@ main>section>.container {
 .second-section {
     padding-top: 10rem;
     background-color: white;
-    height: 150rem;
+    height: 135rem;
 }
 
 .titolo-second-section {
@@ -219,10 +219,16 @@ li {
     margin-top: 10rem;
 }
 
+/* Fine Seconda section */
 
+
+
+
+/* Inizio Terza section  */
 .titolo-third-section {
     text-align: center;
     font-size: 50px;
+    margin-bottom: 40px;
 }
 
 
@@ -241,13 +247,29 @@ li {
  }
 
  .third-section{
-    background-color: lightblue;
-    height: 75rem;
+    background-color: white;
+    height: 100rem;
  }
 
+.col > h5 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.col > p {
+    font-size: 20px;
+}
 
 
-/* Quarta sezione */
+.end-text > h4 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+/* Fine Terza section */
+
+
+/* Inizio Quarta sezione */
 
     .square-logo {
         width: 50%;
@@ -315,11 +337,41 @@ li {
 
     /* colori quadrati */
 
+    /* Fine Quarte section */
+
+
+
+/* Inizio Quinta sezione */
+
 
 .fifth-section {
     background-color: lightblue;
-    height: 35rem;
+    height: 25rem;
 }
+
+.after-logo {
+        
+        padding: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+        background-color: white;
+        color: black;
+        border: none;
+}
+
+.after-logo {
+    margin-top: 11rem;
+    font-size: 20px;
+}
+
+.container > h2 {
+    margin-top: 10rem;
+    font-size: 50px;
+    color: #61082B;
+}
+
+/*  Fine Quinta section  */
+
 
 .sixth-section {
     height: 45rem;
