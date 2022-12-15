@@ -202,28 +202,46 @@ main>section>.container {
     height: 75rem;
  }
 
-.fourth-section {
+/* .fourth-section {
     background-color: grey;
     height: 40vh;
     width: 100vw;
-}
+} */
 
-.fourth-section>.contenuto {
+
+/* Quarta sezione */
+
+ 
+
+    .square-logo {
+        width: 15vw;
+        height: 15vw;
+
+        background-color: blue;
+        border: 2px dashed black;
+    }
+
+
+
+
+
+
+/* .fourth-section>.contenuto {
     display: flex;
 
-    /* debug */
+    
     height: 100%;
 }
 
 .fourth-section-col {
     flex-grow: 1;
     
-    /* debug */
+    
     background-color: cornflowerblue;
     border: 2px dashed black;
     display: flex;
 }
-
+ */
 
 .fifth-section {
     background-color: lightblue;
